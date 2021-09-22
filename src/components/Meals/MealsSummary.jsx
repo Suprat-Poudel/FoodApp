@@ -9,7 +9,7 @@ const MealsSummary = () => {
         and enjoy a delicious lunch or dinner at home.
       </p>
       <p>
-        <b>Contact Less Delivery at your dooor steps!</b>
+        <b>Contact Less Delivery at your door steps!</b>
       </p>
     </section>
   );

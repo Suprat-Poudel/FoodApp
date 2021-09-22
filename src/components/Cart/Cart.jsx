@@ -1,5 +1,5 @@
 import { useContext, useState } from 'react';
-
+import swal from 'sweetalert';
 import Modal from '../UI/Modal';
 import CartItem from './CartItem';
 import classes from './Cart.module.css';
@@ -31,7 +31,8 @@ const Cart = (props) => {
     method:'POST',
     body:JSON.stringify({
     user:userData,
-    // orderedItem:cartCtx.items 
+    orderedItem:cartCtx.items,
+    totalAmount: cartCtx.totalAmount 
     })
     
   })

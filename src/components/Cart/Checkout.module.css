@@ -1,7 +1,12 @@
 .form {
-  margin: 1rem 0;
-  height: 19rem;
-  overflow: auto;
+  margin: .5rem 0;
+  height: 12rem;
+  overflow: scroll;
+}
+@media (max-width: 468px) {
+  .modal {
+    overflow:scroll;
+  }
 }
 
 .control {
